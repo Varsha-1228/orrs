@@ -15,7 +15,7 @@ class DBConnection{
 
         if (!isset($this->conn)) {
             
-            $this->conn = new mysqli("localhost", "root", "", "orrs");
+            $this->conn = new mysqli("sql309.infinityfree.com", "if0_39158396", "orrs", "if0_39158396_orrs");
             
             if (!$this->conn) {
                 echo 'Cannot connect to database server';
